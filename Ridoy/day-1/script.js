@@ -38,3 +38,25 @@ ebar.addEventListener('click',()=>{
     })
   }
 })
+
+// Drop down menu
+
+const dbars = document.querySelector('#dbars');
+  const dlist = document.getElementById('dul');
+
+  let dtoggle = false;
+
+  dbars.addEventListener('click', () => {
+    dtoggle = !dtoggle;
+    if (dtoggle) {
+      dlist.style.display = 'block';
+      setTimeout(() => {
+        dlist.style.width = '100%';
+      }, 10); // Adding a small delay to trigger the transition
+    } else {
+      dlist.style.width = '0';
+      setTimeout(() => {
+        dlist.style.display = 'none';
+      }, 300); // Wait for the transition to finish before hiding
+    }
+  });
