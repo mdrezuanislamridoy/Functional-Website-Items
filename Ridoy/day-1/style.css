@@ -64,3 +64,116 @@
 #dbars{
   color: #fff;
 }
+
+.rmenu{
+  background: #875545;
+  color: gray;
+  width: 800px;
+  height: 300px;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.rmenu ul{
+  list-style-type: none;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  margin-left: 10px;
+  justify-content: space-around;
+}
+.rmenu li{
+  display: flex;
+}
+.rmenu a{
+  color: #fff;
+  text-decoration: none;
+}
+#rbars{
+  color: #fff;
+  display: none;
+}
+
+
+@media (max-width: 600px) {
+  .rmenu{
+  width: 80%;
+}
+.rmenu
+  ul{
+  display: none;
+}
+#rbars{
+  display: block;
+}
+}
+
+
+
+.accordion {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fff;
+  padding: 0 15px;
+}
+
+.accordion-content p {
+  padding: 15px 0;
+  margin: 0;
+}
+
+
+
+
+
+.collapsible {
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  outline: none;
+}
+
+.content {
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fafafa;
+  margin-top: 5px;
+}
+
+.content p {
+  padding: 15px 0;
+  margin: 0;
+}
