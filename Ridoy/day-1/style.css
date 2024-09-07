@@ -13,3 +13,54 @@
   text-align: center;
   margin:1rem auto;
 }
+.eside{
+  background: cyan;
+  color: gray;
+  width: 300px;
+  height: 300px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.eside ul{
+  list-style-type: none;
+  font-size: 20px
+}
+.eside ul li{
+  display: block;
+  line-height: 30px;
+}
+.eside ul a{
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.dmenu{
+  background: #457487;
+  color: gray;
+  width: 300px;
+  height: 300px;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.dmenu ul{
+  list-style-type: none;
+  font-size: 20px;
+  color: #fff;
+  display: none;
+ 
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  margin-left: 10px;
+}
+.dmenu li{
+  display: flex;
+}
+.dmenu a{
+  color: #fff;
+}
+#dbars{
+  color: #fff;
+}
